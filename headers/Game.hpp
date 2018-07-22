@@ -10,6 +10,7 @@
 #define Game_hpp
 
 #include <stdio.h>
+#include <math.h>
 #include <iostream>
 #include <string>
 
@@ -20,14 +21,23 @@ private:
 	std::string p3;
 	std::string p4;
 
+	/**
+	* Intro scene
+	*/
+	std::string intro;
+
 public:
     	Game();
     	~Game();
 
 	/**
-	* Intro Scene
+	* Intro of game
 	*/
 	void gameIntro();
+	/**
+	* Cycle letters
+	*/
+	void cycleChar();
 };
 
 #endif /* Game_hpp */
