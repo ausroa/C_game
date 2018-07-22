@@ -10,9 +10,10 @@
 #define Game_hpp
 
 #include <stdio.h>
-#include <math.h>
+#include <windows.h>
 #include <iostream>
 #include <string>
+#include <sstream>
 
 class Game {
 private:
@@ -37,7 +38,15 @@ public:
 	/**
 	* Cycle letters
 	*/
-	void cycleChar();
+
+	/**
+	* Accessors
+	*/
+	std::string getIntro() { return intro; };
+	std::string getNameP1() { return p1; };
+	std::string getNameP2() { return p2; };
+	std::string getNameP3() { return p3; };
+	std::string getNameP4() { return p4; };
 };
 
 #endif /* Game_hpp */
