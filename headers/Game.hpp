@@ -38,6 +38,7 @@ public:
 	/**
 	* Cycle letters
 	*/
+	void cycleChar(std::string x);
 
 	/**
 	* Accessors
