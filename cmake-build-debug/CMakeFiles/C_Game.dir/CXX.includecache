@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/austinroa/Documents/GitHub/C_game/headers/Character.h
+iostream
+-
+
+/Users/austinroa/Documents/GitHub/C_game/headers/Game.h
+iostream
+-
+string
+-
+../headers/GameWorld.h
+/Users/austinroa/Documents/GitHub/C_game/headers/GameWorld.h
+../headers/Character.h
+/Users/austinroa/Documents/GitHub/C_game/headers/Character.h
+
+/Users/austinroa/Documents/GitHub/C_game/headers/GameWorld.h
+../headers/Character.h
+/Users/austinroa/Documents/GitHub/C_game/headers/Character.h
+
+/Users/austinroa/Documents/GitHub/C_game/src/Character.cpp
+../headers/Character.h
+/Users/austinroa/Documents/GitHub/C_game/headers/Character.h
+
+/Users/austinroa/Documents/GitHub/C_game/src/Game.cpp
+../headers/Game.h
+/Users/austinroa/Documents/GitHub/C_game/headers/Game.h
+
+/Users/austinroa/Documents/GitHub/C_game/src/GameWorld.cpp
+../headers/GameWorld.h
+/Users/austinroa/Documents/GitHub/C_game/headers/GameWorld.h
+
+/Users/austinroa/Documents/GitHub/C_game/src/Main.cpp
+../headers/Game.h
+/Users/austinroa/Documents/GitHub/C_game/headers/Game.h
+
