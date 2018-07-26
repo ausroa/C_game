@@ -16,6 +16,7 @@ public:
     ~GameWorld();
 
     void init();
+    void chapter1();
 };
 
 

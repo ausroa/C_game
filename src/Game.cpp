@@ -22,7 +22,8 @@ void Game::mainMenu() {
     std::cout << "|| 2. Travel                 ||" << std::endl;
     std::cout << "|| 3. Shop                   ||" << std::endl;
     std::cout << "|| 4. Rest                   ||" << std::endl;
-    std::cout << "|| 5. Quit                   ||" << std::endl;
+    std::cout << "|| 5. Stats                  ||" << std::endl;
+    std::cout << "|| 6. Quit                   ||" << std::endl;
     std::cout << "===============================" << std::endl;
     std::cout << std::endl;
 
