@@ -1,5 +1,6 @@
 # Prerequisites
 *.d
+*.txt
 
 # Compiled Object files
 *.slo
@@ -30,7 +31,6 @@
 *.exe
 *.out
 *.app
-<<<<<<< HEAD
 
 # Document Files
 *.xml
